@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REEL IMMO MULTI-SERVICES</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { 
+            
+
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:rgb(0, 0, 0) ;color: #ffffff;
+        }
+        
+        header {
+
+           background-image: url('ccc.jpeg');background-position: center;background-attachment:;
+        position:relative;background-repeat:no-repeat;height:auto;background-size: cover;
+            color: rgb(255, 255, 255);
+            padding: 1em 0;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;font-size: 20px;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        .section {
+            border-radius: 2%;
+            background-color: rgb(20, 36, 25);
+            border: 8px solid #cf9e9e;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        form {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+        
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+        
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        footer {
+            background-color: #12b141;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .image img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>REEL IMMO MULTI-SERVICES</h1>
+        <nav>
+            <ul>
+                <li><a href="#annonces">Annonces</a></li>
+                <li><a href="#Catalogue">Catalogue</a></li>
+                <li><a href="#parcelles">Parcelles</a></li></ul>
+              <ul>  <li><a href="#plomberie">Plomberie</a></li>
+                <li><a href="#chambres">Location</a></li>
+                <li><a href="#chambres">Services ANIP</a></li><br><br>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        
+        <section id="service" class="section">
+            
+            <h2>Nos Annonces</h2> 
+          
+            
+        </section>
+
+        <section id="annonces">
+            
+            <div class="listing">
+                <h2> * Maison personnelle</h2>
+
+                <div id="carousel">
+                    <div class="images">
+                        <img src="bbb.jpg" alt="">
+                        <img src="aaa.jpg" alt="">
+                        <img src="cccc.jpg" alt="">
+                        <img src="dddd.jpg" alt="">
+                    </div>
+                </div>
+                <h3>Caractéristiques</h3>
+                <ul>
+                    <li>Trois chambres salon</li>
+                    <li>Sanitaire avec forage</li>
+                    <li>Compteur électrique à HEVIE Hounzévié</li>
+                    
+                </ul>
+              
+                <h3>Prix: 20 000 000 FCFA</h3>
+                
+            </div>
+            <div class="listing">
+                <h2>* Parcelles à vendre</h2>
+                 
+                 
+                    <img  id="a" src="ooo.jpg" alt="">
+                
+                
+                <strong><p>Localisation: HEVIE DOSSOUNOU</p>
+                <p>Prix: 2 500 000 FCFA</p></strong>
+                <br>
+              
+                    <img  id="b" src="vvv.jpg" alt="">
+            
+                <strong><p>Localisation: Tori Avamey</p>
+                    <p>Domaine TF morcelé</p>
+                    <p>Prix: 3 500 000 FCFA par parcelle</p></strong>
+                <br>
+
+               
+                    <img id="c" src="ppp.jpg" alt="">
+               
+                <strong><p>Localisation: Tori Avamey</p>
+                    
+                    <p>Prix: 700 000 FCFA </p></strong>
+                <br>
+
+                
+                    <img id="d" src="jjj.jpg" alt="">
+                
+                <strong><p>Localisation: Tori Agouako(ADJAMEY)</p>
+                    <P>Superficie: 500m²</P>
+                    <p>Prix: 750 000 FCFA </p></strong>
+                <br>
+
+               
+                    <img id="e" src="lll.jpg" alt="">
+             
+                
+                <strong><p>Localisation: HEVIE hessa</p>
+                    <P>Superficie: 500m²</P>
+                <p>Prix: 9 000 000 FCFA</p></strong>
+                <br>
+
+               
+            </div>
+            <!-- Ajouter plus de listings ici -->
+        
+        </section>
+       
+        <section id="Catalogue" class="section">
+            
+           
+            <h1 class="text-light">Catalogue</h1>
+            
+            <a href="https://wa.me/c/22991911038"><button onclick="showDetails('Maison à Lyon')">Voir plus</button></a>
+
+           
+           
+           
+            
+        </section>
+        
+        <section id="parcelles" class="section">
+            <h2>Vente et Achat de Parcelles</h2>
+            <p>Nous offrons des services complets pour l'achat et la vente de parcelles, que vous soyez un acheteur à la recherche de la parcelle parfaite pour construire votre maison ou un vendeur souhaitant obtenir le meilleur prix pour votre terrain. Notre équipe d'experts est dédiée à vous fournir un service personnalisé et professionnel à chaque étape du processus.</p>
+            
+            <h3>Nos Services pour la Vente et l'Achat de Parcelles :</h3>
+            <ul>
+                <li>Achat de Parcelles</li>
+                <li>Vente de Parcelles</li>
+                <li>Évaluation Professionnelle</li>
+                <li>Stratégie de Commercialisation</li>
+                <li>Réseau Étendu</li>
+                <li>Gestion des Négociations</li>
+                <li>Assistance Juridique</li>
+            </ul>
+            
+            <p>Notre équipe possède une connaissance approfondie du marché des parcelles et des tendances actuelles, vous offrant des conseils éclairés pour vos transactions immobilières. Nous prenons le temps de comprendre vos besoins spécifiques et de vous fournir des solutions sur mesure pour l'achat ou la vente de votre parcelle.</p>
+        </section>
+        
+        <section id="plomberie" class="section">
+            <h2>Plomberie</h2>
+            <p>Notre service de plomberie offre une gamme complète de solutions pour tous vos besoins en matière de plomberie. Que vous ayez une fuite, besoin d'une installation ou d'un entretien régulier, nos plombiers qualifiés sont là pour vous aider. Nous nous engageons à fournir des services rapides, fiables et de haute qualité à des prix compétitifs.</p>
+            
+            <h3>Nos Services de Plomberie Incluent :</h3>
+            <ul>
+                <li>Réparation de fuites</li>
+                <li>Installation de robinets et de tuyaux</li>
+                <li>Débouchage de canalisations</li>
+                <li>Inspection et entretien de systèmes de plomberie</li>
+                <li>Installation de chauffe-eau</li>
+                <li>Rénovation de salles de bain et de cuisines</li>
+            </ul>
+            
+            
+        </section>
+        
+        <section id="chambres" class="section">
+            <h2>Location de Chambres</h2>
+            <p>Nous proposons des chambres à louer pour répondre à tous vos besoins, que vous soyez étudiant, professionnel en déplacement ou simplement à la recherche d'un hébergement temporaire. Nos chambres sont soigneusement sélectionnées pour offrir confort, sécurité et convivialité, le tout à des prix compétitifs.</p>
+            
+            <h3>Nos Services de Location de Chambres Incluent :</h3>
+            <ul>
+                <li>Chambres Meublées </li>
+                <li>Mobilier Essentiel: Bureau, chaise,
+                     armoire ou placard pour le rangement de vos affaires personnelles</li>
+                <li>
+                    Chambres en Colocation La colocation est une option économique et conviviale.
+                </li>
+                <li>
+                    Vous avez la liberté de meubler la chambre selon vos goûts et besoins.
+                </li>
+                <li>
+                    Avantages de Nos Chambres à Louer - **Emplacements Stratégiques**
+                </li>
+                   
+               
+            </ul>        
+        </section>
+
+        <section id="chambre" class="section">
+            
+           
+            <h1 class="text-light">Services ANIP</h1>
+
+            <ul>
+                <li>Acte de naissance sécurisée</li>
+                <li>Passeport</li>
+                <li>Carte CIP </li>
+                <li>Carte biométrique</li>
+                
+                   
+               
+            </ul>        
+           
+           
+            
+        </section>
+   
+        <section id="contact">
+            <footer id="f">
+            <center>
+            <h1 class="text-light">Contactez-nous</h1>
+           
+            <strong><p><a href="https://wa.me/+22991911038" class="text-light"
+            target="_blank">whatsapp:+22991911038</a></p></strong>
+
+           
+            <strong><p><a href="
+                https://www.facebook.com/immobilier.multiservices.91911038?mibextid=ZbWKwL
+                "  class="text-success " target="_blank">https://vv33.facebook.com</a></p></strong>   
+            </center>
+         </footer>
+
+       </section >
+
+         </main>
+</body>
